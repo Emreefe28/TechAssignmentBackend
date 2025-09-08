@@ -18,8 +18,15 @@ Follow these steps to get the application up and running:
 
 Clean and package the Spring Boot application using Maven Wrapper:
 
+
+On windows:
 ```bash
 ./mvnw clean package -DskipTests
+```
+
+On linux:
+```bash
+mvn clean package -DskipTests
 ```
 
 This command will:
